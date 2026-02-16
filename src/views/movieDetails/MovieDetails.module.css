@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  text-align: center;
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+  padding: 2rem;
+  background-color: #fff; /* fundo branco */
+  border-radius: 10px;
+}
+
+.imageContainer img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+  max-width: 300px;
+}
+

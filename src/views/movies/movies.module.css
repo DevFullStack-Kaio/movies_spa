@@ -1,0 +1,52 @@
+.movie {
+    width: 200px;
+    margin-right: 20px;
+     margin-bottom: 50px;
+}
+
+/* Botão de detalhes */
+.detailsBtn {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.detailsBtn:hover {
+    color: blue;
+    
+}
+
+/* Lista de filmes (container Flexpivel) */
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Título da seção */
+.movies h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Seção principal */
+.movies {
+  padding: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buttonContainer a:hover {
+  background-color: #0056b3;
+}
