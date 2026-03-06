@@ -1,0 +1,25 @@
+/* Telas grandes (desktop) */
+@media (min-width: 1025px) {
+  .movies-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .movies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+  .movies-grid {
+    grid-template-columns: 1fr;
+  }
+  .movie-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
